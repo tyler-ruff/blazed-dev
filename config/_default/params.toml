@@ -28,10 +28,10 @@ schemaAuthorTwitter = "https://twitter.com/BlazedLabs"
 schemaAuthorLinkedIn = "https://www.linkedin.com/company/blazed-labs/"
 schemaAuthorGitHub = "https://github.com/blazed-labs"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "Beaker-Dark.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "Lockscreen-Beaker.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/BlazedLabs"
@@ -65,7 +65,7 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "&copy;2020-2023 <a class=\"text-muted\" href=\"https://www.blazedlabs.com/\">Blazed Labs LLC</a>, <a class=\"text-muted\" href=\"https://ruff-manage.com/\">Ruff Management Inc.</a>. All Rights Reserved."
+footer = "&copy;2020-2023 <a class=\"text-muted\" href=\"https://www.blazedlabs.com/\">Blazed Labs LLC</a>, <a class=\"text-muted\" href=\"https://ruff-manage.com/\">Ruff Management Inc.</a> <b>All Rights Reserved.</b>"
 
 # Feed
 copyRight = "Copyright (c) 2020-2023 Blazed Labs LLC, Ruff Management Inc."

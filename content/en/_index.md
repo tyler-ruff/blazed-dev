@@ -1,7 +1,7 @@
 ---
 title : "Welcome to Blazed Development"
-description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+description: "Blazed Development Group is an open source software organization dedicated to releasing quality code."
+lead: "Blazed Development Group is an open source software organization dedicated to releasing quality code."
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false
