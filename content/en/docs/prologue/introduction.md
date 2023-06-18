@@ -15,7 +15,7 @@ toc: true
 
 ## Get started
 
-There are two main ways to get started with Doks:
+There are two main ways to get started with Blazed:
 
 ### Tutorial
 
@@ -51,7 +51,7 @@ See what others have build with Doks. [Showcase →](https://getdoks.org/showcas
 
 ## Contributing
 
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+Find out how to contribute to Blazed. [Contributing →](https://blazed.dev/contributing)
 
 ## Help
 
