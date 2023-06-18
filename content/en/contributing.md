@@ -8,9 +8,9 @@ images: []
 ---
 
 Thank you for investing your time in contributing to our project! 
-Any contribution you make will be reflected on [blazed.city](https://blazed.city/).
+Any contribution you make will be reflected on the project.
 
-Read our [Code of Conduct](code-of-conduct) to keep our community approachable and respectable.
+Read our [Code of Conduct](/code-of-conduct) to keep our community approachable and respectable.
 
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a PR, reviewing, and merging the PR.
 
