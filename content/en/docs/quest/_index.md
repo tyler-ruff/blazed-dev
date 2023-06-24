@@ -9,6 +9,3 @@ images: []
 weight: 700
 ---
 
-## Product
-The product is an application available at [app.blazed.quest](https://app.blazed.quest/), it is a project management application and publishing application for busineses.
-

@@ -1,6 +1,6 @@
 ---
-title : "Quest Docs Example"
-description: "Docs for Blazed Quest project management."
+title : "Quest Introduction"
+description: "Intro to docs for Blazed Quest project management."
 lead: ""
 date: 2020-10-06T08:48:23+00:00
 lastmod: 2020-10-06T08:48:23+00:00
