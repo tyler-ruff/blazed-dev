@@ -89,4 +89,6 @@ COPY --from=builder --chown=nobody:root /app/_build/${MIX_ENV}/rel/blazed ./
 
 USER nobody
 
+RUN chmod +x /app/bin/server
+
 CMD ["/app/bin/server"]
