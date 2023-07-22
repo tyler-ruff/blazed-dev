@@ -21,12 +21,6 @@ ARG RUNNER_IMAGE="debian:${DEBIAN_VERSION}"
 
 FROM ${BUILDER_IMAGE} as builder
 
-#
-# Fix windows line ending error
-# Source = https://community.fly.io/t/error-failed-to-spawn-command-start-sh-permission-denied-os-error-13/12621/9
-#
-RUN chmod +x ./app/bin/migrate
-
 # install build dependencies
 RUN apt-get update -y && apt-get install -y build-essential git \
     && apt-get clean && rm -f /var/lib/apt/lists/*_*
