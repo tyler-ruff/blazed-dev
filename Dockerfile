@@ -11,6 +11,14 @@
 #   - https://pkgs.org/ - resource for finding needed packages
 #   - Ex: hexpm/elixir:1.15.3-erlang-26.0.2-debian-bullseye-20230612-slim
 #
+
+#
+# Fix windows line ending error
+# Source = https://community.fly.io/t/error-failed-to-spawn-command-start-sh-permission-denied-os-error-13/12621/9
+#
+RUN chmod +x ./start.sh && \
+    sed -i "s/\r$//g" ./start.sh
+
 ARG ELIXIR_VERSION=1.15.3
 ARG OTP_VERSION=26.0.2
 ARG DEBIAN_VERSION=bullseye-20230612-slim
