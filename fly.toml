@@ -8,7 +8,7 @@ primary_region = "ewr"
 kill_signal = "SIGTERM"
 
 [deploy]
-  release_command = "/rel/overlays/bin/migrate"
+  release_command = "/app/bin/migrate"
 
 [env]
   PHX_HOST = "blazed-dev.fly.dev"
