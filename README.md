@@ -1,10 +1,18 @@
-# blazed.dev
-[![Blazed Labs](https://img.shields.io/badge/Blazed-Labs-red?style=for-the-badge&logo=data:image/webp;base64,UklGRgwBAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSJsAAAABgFvb1rLo+3Eyd0lZtOESaeadEHkBELEog5zMfVwbcPc78v3vm+kgIiaA/aPS6nA4XVaJ5hgcHRye9nQ0VgPwXmaCFQBPQZESgOeISP4TeE2KFD6B94yAtg8AXTWt8PDrNkXy74A79hD0fci2lXKVR7mLmExgH8ShnaPogPpZ5Vg3JMxNvwwj2tj4i+Xm58RxlnEls49olHh/CABWUDggSgAAADADAJ0BKhQAFAA+bSyRRaQioZgEAEAGxLOAX7UGAIdtN3AA/vPA0UtZSPblfop///kEdls9BxW6nkyImweTORm+zO2yEn0/AgAA "Blazed Labs")](https://blazedlabs.com/)
+# Blazed Dev
 
-The home of the Blazed Development group, open source software development organization.
+To start your Phoenix server:
 
-## Status
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8ab334ad-ccd7-4dc7-b1a6-e0f783261f28/deploy-status)](https://app.netlify.com/sites/blazed-dev/deploys)
+  * Run `mix setup` to install and setup dependencies
+  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-## License
-- [MIT License](https://blazedlabs.com/license.txt)
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+
+## Learn more
+
+  * Official website: https://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Forum: https://elixirforum.com/c/phoenix-forum
+  * Source: https://github.com/phoenixframework/phoenix
