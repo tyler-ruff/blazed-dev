@@ -1,18 +1,19 @@
 # Blazed Dev
 
-To start your Phoenix server:
+## Deployment
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+1. [Create](https://dashboard.render.com/new/database) a new PostgreSQL database on Render and copy the internal DB URL to use below.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+2. Fork this repo to your own GitHub account.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+3. Create a new **Web Service** on Render, and give Render's GitHub app permission to access your new repo.
 
-## Learn more
+4. Select `Docker` for the environment, and add the following environment variable under the *Advanced* section:
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+   | Key             | Value           |
+   | --------------- | --------------- |
+   | `DATABASE_URL`  | The **internal connection string** for the database you created above. |
+   | `DB_CONNECTION`  | `pgsql` |
+   | `APP_KEY`  | Copy the output of `php artisan key:generate --show` |
+
+That's it! Your Laravel 5.8 app will be live on your Render URL as soon as the build finishes. You can test it out by registering and logging in.
