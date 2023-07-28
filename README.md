@@ -1,19 +1,32 @@
-# Blazed Dev
+# Nuxt 3 Kitchen Sink Template
 
-## Deployment
+This template is an open-source, customizable template built with Nuxt 3 and Tailwind CSS. It showcases how all Nuxt 3 features work with zero configuration on Vercel.
 
-1. [Create](https://dashboard.render.com/new/database) a new PostgreSQL database on Render and copy the internal DB URL to use below.
+Look at the [Nuxt 3 documentation](https://nuxt.com) to learn more.
 
-2. Fork this repo to your own GitHub account.
+## Supported Features
 
-3. Create a new **Web Service** on Render, and give Render's GitHub app permission to access your new repo.
+- Server-Side Rendering (SSR)
+- Server Routes
+- Teleports
+- Middleware
+- Edge Rendering
+- Nuxt Loading Indication
+- `NuxtLink`
+- `NuxtContent`
+- Data Fetching
 
-4. Select `Docker` for the environment, and add the following environment variable under the *Advanced* section:
+## Deploy Your Own
 
-   | Key             | Value           |
-   | --------------- | --------------- |
-   | `DATABASE_URL`  | The **internal connection string** for the database you created above. |
-   | `DB_CONNECTION`  | `pgsql` |
-   | `APP_KEY`  | Copy the output of `php artisan key:generate --show` |
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnuxt3-kitchen-sink&project-name=nuxt3&repository-name=nuxt3&demo-title=Nuxt%203%20Kitchen%20Sink&demo-url=https%3A%2F%2Fnuxt3-kitchen-sink.vercel.app%2F&demo-image=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Fv1673746665%2Fnuxt3_pkwbk6.png)
 
-That's it! Your Laravel 5.8 app will be live on your Render URL as soon as the build finishes. You can test it out by registering and logging in.
+## Development Server
+
+Start the development server on http://localhost:3000
+
+```bash
+git clone https://github.com/vercel/nuxt3-kitchen-sink.git
+cd nuxt3-kitchen-sink
+pnpm i
+pnpm dev
+```
