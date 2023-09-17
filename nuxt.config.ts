@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     global: true,
     dirs: ['~/components'],
   },
+  css: ["~/assets/css/base.css"],
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {
