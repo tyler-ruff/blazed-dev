@@ -4,7 +4,7 @@
     const route = useRoute();
 </script>
 <template>
-    <header class="bg-white">
+    <header class="bg-white select-none">
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex-1 md:flex md:items-center md:gap-12">
@@ -37,8 +37,8 @@
                 </nuxt-link>
               </div>
               <div class="sm:flex sm:gap-4">
-                <nuxt-link href="/register" class="btn btn-secondary rounded-full">
-                    Join
+                <nuxt-link href="/register" class="btn bg-red-600 hover:bg-red-700 active:ring focus:ring ring-gray-400 text-white rounded-full">
+                    Sign Up
                 </nuxt-link>
               </div>
               <div class="block md:hidden">
