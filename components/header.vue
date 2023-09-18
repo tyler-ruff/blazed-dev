@@ -17,7 +17,7 @@
             <nav aria-label="Global" class="hidden md:block">
               <ul class="flex items-center gap-6 text-sm">
                 <li v-for="(item, index) in navMenu.nav" :key="index">
-                    <nuxt-link v-bind:to="item.href" class="transition hover:text-gray-500/75" :style="{'color': route.path === item.href ? '#00219a' : '#858585'}">
+                    <nuxt-link v-bind:to="item.href" class="transition hover:text-gray-500/75" :style="{'color': route.path === item.href ? '#a83238' : '#858585'}">
                         {{ item.label }}
                     </nuxt-link>
                 </li>
