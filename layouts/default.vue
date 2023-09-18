@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import { siteConfig, brandConfig, socialConfig } from "~/config/site";
 useHead({
+  titleTemplate: `%s - ${siteConfig.name}`,
   link: [
     { rel: "apple-touch-icon", sizes: "180x180", href: "/icons/apple-touch-icon.png" },
     { rel: "icon", sizes: "32x32", href: "/icons/favicon-32x32.png" },

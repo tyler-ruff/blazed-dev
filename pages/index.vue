@@ -1,3 +1,8 @@
+<script setup lang="ts">
+	useHead({
+		title: "Home"
+	});
+</script>
 <template>
 	<div class="bg-gray-100 text-gray-800">
 		<div class="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-2xl">

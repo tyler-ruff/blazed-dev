@@ -1,3 +1,8 @@
+<script setup lang="ts">
+	useHead({
+		title: "Login"
+	});
+</script>
 <template>
 	<div class="relative mx-auto max-w-md my-5 p-4 rounded-md shadow sm:p-8 bg-gray-50 text-gray-800">
 		<h2 class="mb-3 text-3xl font-semibold text-center">Login to your account</h2>
