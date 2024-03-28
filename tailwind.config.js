@@ -1,17 +1,9 @@
 module.exports = {
   content: [
-    './assets/**/*.{vue,js,css}',
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
+    "./src/**/*.{html,ts}",
   ],
-  variants: {
+  theme: {
     extend: {},
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('daisyui')
-  ],
-};
+  plugins: [require("daisyui")],
+}
