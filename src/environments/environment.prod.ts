@@ -2,7 +2,7 @@ export const environment = {
   production: true,
   firebaseConfig: {
     apiKey: "AIzaSyDJNpSgZqhn1_ipvk54wsU11UIE1BoYIfc",
-    authDomain: "blz-one-9e383.firebaseapp.com",
+    authDomain: "blazed.dev",
     databaseURL: "https://blz-one-9e383-default-rtdb.firebaseio.com",
     projectId: "blz-one-9e383",
     storageBucket: "blz-one-9e383.appspot.com",

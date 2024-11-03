@@ -1,6 +1,6 @@
-# blazed-dev
+# Blazed Development
 
-Blazed Development website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22d586a4-2ea4-4bfc-851e-02668a32ea3b/deploy-status)](https://app.netlify.com/sites/blazed-dev/deploys)
 
 ## Made With
 - [fire-ng](https://github.com/blazed-space/fire-ng/) for Angular

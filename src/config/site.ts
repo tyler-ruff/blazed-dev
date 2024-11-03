@@ -25,15 +25,15 @@ export const site = {
             body: [
                 {
                     text: "Home",
-                    link: "/home"
+                    link: "https://blazedlabs.com/"
                 },
                 {
-                    text: "Services",
-                    link: "/services"
+                    text: "Solutions",
+                    link: "https://blazedlabs.com/solutions"
                 },
                 {
                     text: "Products",
-                    link: "/products"
+                    link: "https://blazedlabs.com/products"
                 },
                 {
                     text: "Corportate",
@@ -42,23 +42,23 @@ export const site = {
             ]
         },
         {
-            header: "Platforms",
+            header: "Community",
             body: [
                 {
-                    text: "Gaming",
-                    link: "https://blazed.games/"
+                    text: "R&D",
+                    link: "https://blazed-space.github.io/"
                 },
                 {
-                    text: "Social",
+                    text: "Blazed One",
                     link: "https://blz.one/"
                 },
                 {
-                    text: "World",
-                    link: "https://blazed.world/"
+                    text: "Blazed Space",
+                    link: "https://blazed.space/"
                 },
                 {
-                    text: "Software",
-                    link: "https://blazed.software/"
+                    text: "Blazed City",
+                    link: "https://blazed.city/"
                 }
             ]
         },
@@ -67,21 +67,21 @@ export const site = {
             body: [
                 {
                     text: "Governance",
-                    link: "https://vexio.quest/"
+                    link: "https://ruff-manage.com/"
                 },
                 {
-                    text: "Sales",
-                    link: "https://ixis.space/"
+                    text: "Logistics",
+                    link: "https://rtmtransit.com/"
                 },
                 {
                     text: "Publishing",
                     link: "https://blazed.xyz/"
                 },
                 {
-                    text: "Telecom",
-                    link: "https://blazed.tel/"
+                    text: "Innovation",
+                    link: "https://blazed.space/"
                 }
             ]
         }
-    ]
+    ] as FooterLink[]
 } as Layout;
