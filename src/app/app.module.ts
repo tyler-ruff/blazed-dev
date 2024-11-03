@@ -10,6 +10,10 @@ import { environment } from '../environments/environment';
 // Services
 import { AppService } from './shared/app.service';
 
+// Firebase
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+
 // Pages 
 import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
@@ -53,7 +57,8 @@ import { RelativeTimePipe } from './utils/relative-time.pipe';
     ProductsComponent
   ],
   imports: [
-    CommonModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig), // Initialize Firebase
+    AngularFireAuthModule,
     BrowserModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {

@@ -17,6 +17,10 @@
 <span class="hidden lg:inline">
     &nbsp; | &nbsp;
 </span>
-<a href="https://blz.one/" class="btn btn-outline mx-5">
-    Login / Register
-</a>
+<div *ngIf="user; else loggedOut">
+    <span>Welcome, {{ user.displayName }}!</span>&nbsp;
+    <button (click)="logout()">Logout</button>
+</div>
+<ng-template #loggedOut>
+    <button (click)="login()">Login with Google</button>
+</ng-template>
