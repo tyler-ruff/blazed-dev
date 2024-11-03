@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -52,6 +53,7 @@ import { RelativeTimePipe } from './utils/relative-time.pipe';
     ProductsComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
@@ -62,7 +64,7 @@ import { RelativeTimePipe } from './utils/relative-time.pipe';
     })
   ],
   providers: [
-    AppService
+    AppService,
   ],
   bootstrap: [AppComponent]
 })
