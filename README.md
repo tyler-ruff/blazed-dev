@@ -2,43 +2,57 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/22d586a4-2ea4-4bfc-851e-02668a32ea3b/deploy-status)](https://app.netlify.com/sites/blazed-dev/deploys)
 
-## Made With
-- [fire-ng](https://github.com/blazed-space/fire-ng/) for Angular
+Features:
 
-## Installing
-To install, run the following command at the root of the directory:
-```sh
-npm install
+- ✅ Minimal styling (make it your own!)
+- ✅ 100/100 Lighthouse performance
+- ✅ SEO-friendly with canonical URLs and OpenGraph data
+- ✅ Sitemap support
+- ✅ RSS Feed support
+- ✅ Markdown & MDX support
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+├── public/
+├── src/
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+├── astro.config.mjs
+├── README.md
+├── package.json
+└── tsconfig.json
 ```
 
-## Live Development Server
-To run a live dev server, first ensure you have NPM installed. Then, if you have not already, install the Angular CLI,
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-```sh
-npm install -g @angular/cli
-```
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Once installed, you can run a simple development server with the following command:
+The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
 
-```sh
-ng serve
-```
+Any static assets, like images, can be placed in the `public/` directory.
 
-## Deploying
-To deploy to [Netlify](https://netlify.com/), simply create a new site using this repository as a template.
-Or, you may use the following button to deploy with one click:
+## 🧞 Commands
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg "Deploy to Netlify")](https://app.netlify.com/start/deploy?repository=https://github.com/blazed-space/fire-angular)
+All commands are run from the root of the project, from a terminal:
 
-# Credits
-![Last Commit](https://img.shields.io/github/last-commit/blazed-space/fire-angular?style=for-the-badge "Last Commit")
-## Development Team
-* Maintained by: [The Blazed Development Group](https://www.facebook.com/groups/blzdev)
-* Published by: [Blazed Publishing](https://blazed.xyz/)
-- Lead Developer, Project Management: [Tyler Ruff](https://github.com/tyler-ruff)
-- UX Testing, Project Advising: Star Dom
-## Special Thanks
-- [Google](https://google.com/) and [Angular](https://angular.io/)
-- [Netlify](https://netlify.com/)
-- [HTML Head](https://htmlhead.dev/)
-- [TailwindCSS](https://tailwindcss.com/)
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Credit
+
+This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
