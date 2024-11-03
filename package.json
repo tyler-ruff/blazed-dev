@@ -14,7 +14,7 @@
     "@angular/common": "^17.3.12",
     "@angular/compiler": "^17.3.12",
     "@angular/core": "^17.3.12",
-    "@angular/fire": "^16.0.0",
+    "@angular/fire": "^17.1.0",
     "@angular/forms": "^17.3.12",
     "@angular/platform-browser": "^17.3.12",
     "@angular/platform-browser-dynamic": "^17.3.12",
@@ -23,7 +23,7 @@
     "daisyui": "^2.42.1",
     "fire-ng": "^2.0.1",
     "libphonenumber-js": "^1.10.18",
-    "rxjs": "~7.5.0",
+    "rxjs": "~7.5.7",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
   },
