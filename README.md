@@ -1,23 +1,8 @@
-# fire-angular
-![Repo Stars](https://img.shields.io/github/stars/blazed-space/fire-angular?style=for-the-badge "Repo Stars")
+# blazed-dev
 
-![Repo Downloads](https://img.shields.io/github/downloads/blazed-space/fire-angular/total?style=for-the-badge "Repo Downloads")
+Blazed Development website
 
-The Fire bootstrap &amp; framework library for Angular.
-
-- [View Demo](https://fire-angular.netlify.app/)
-- [Documentation](https://github.com/blazed-space/fire-angular/wiki)
-
-## What's Included
-This package includes:
-- [Angular](https://angular.io/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [HTML Monolith Boilerplate](https://github.com/tyler-ruff/tyler-ruff/blob/main/Web-Gallery/HTML-Snippets/index.html)
-- Blazed [custom-scrollbar](https://github.com/tyler-ruff/tyler-ruff/blob/main/Web-Gallery/CSS-Snippets/custom-scrollbar.css)
-- [blink-stop](https://github.com/tyler-ruff/tyler-ruff/blob/main/Web-Gallery/CSS-Snippets/blink-stop.css)
-- Netlify.toml (for easy [Netlify](https://netlify.com/) deploy)
-- Mobile Burger Menu
-- 404 Page Not Found Action (Uknown Module)
+## Made With
 - [fire-ng](https://github.com/blazed-space/fire-ng/) for Angular
 
 ## Installing
