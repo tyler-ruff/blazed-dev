@@ -2,14 +2,10 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/22d586a4-2ea4-4bfc-851e-02668a32ea3b/deploy-status)](https://app.netlify.com/sites/blazed-dev/deploys)
 
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+Collections:
+- Blog (for project news/org news)
+- Projects
+- Docs (knowledgebase/wiki)
 
 ## 🚀 Project Structure
 
