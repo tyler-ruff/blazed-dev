@@ -49,6 +49,18 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		border-radius: 12px;
 		box-shadow: var(--box-shadow);
 	}
+	@media screen and (max-width:720px) {
+		main{
+			margin:0;
+			padding:0;
+			width:100%;
+			max-width: 100%;
+		}
+		.hero-image img {
+			margin:0;
+			border-radius:0;
+		}
+	}
 	.prose {
 		width: 720px;
 		max-width: calc(100% - 2em);
