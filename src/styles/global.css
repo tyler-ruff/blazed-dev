@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 :root {
+	--blue-main: #004ba8;
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
 	--black: 15, 18, 25;
@@ -17,12 +18,12 @@
 }
 
 ::selection{
-	background: var(--accent-dark);
+	background: var(--blue-main);
 	color: rgba(255, 255, 255, 0.8);
 }
 
 ::-moz-selection{
-	background: var(--accent-dark);
+	background: var(--blue-main);
 	color: rgba(255, 255, 255, 0.8);
 }
 
