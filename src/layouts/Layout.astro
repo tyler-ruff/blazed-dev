@@ -27,7 +27,7 @@ const { title, description = SITE_DESCRIPTION } = Astro.props;
         </section>
         <script>
             import { initFlowbite, initDropdowns } from 'flowbite';
-            window.addEventListener('load', () => {
+            window.addEventListener('astro:before-preparation', () => {
                 initFlowbite();
                 initDropdowns();
             });
