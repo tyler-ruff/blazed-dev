@@ -1,0 +1,17 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import PostSingle from '../../layouts/PostSingle.astro';
+
+/* SSR Generation: */
+const posts = await getCollection('projects');
+type Props = CollectionEntry<'projects'>;
+
+const { slug } = Astro.params;
+const post = posts.find((page: any) => page.slug === slug);
+if (!post) return Astro.redirect("/404");
+const { Content } = await post.render();
+---
+
+<PostSingle {...post.data}>
+	<Content />
+</PostSingle>

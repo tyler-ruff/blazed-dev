@@ -1,9 +1,46 @@
 ---
-import Layout from "@/layouts/Layout.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import Pagination from '@/components/ui/Pagination.astro';
+
+const projects = (await getCollection('projects'));
 ---
 
 <Layout title="Projects Home">
-<p>
-    Projects
-</p>
+    <div>
+        <div>
+            <div class="mb-10 border-t border-b divide-y">
+                {
+                    projects.map((project: any) => (
+                        <div class="grid py-8 sm:grid-cols-4">
+                            <div class="mb-4 sm:mb-0">
+                                <div class="space-y-1 text-xs font-semibold tracking-wide uppercase">
+                                    <a href={`/categories/`} class="transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800" aria-label="Category">
+                                        Books
+                                    </a>
+                                    <p class="text-gray-600">5 Jan 2020</p>
+                                </div>
+                            </div>
+                            <div class="sm:col-span-3 lg:col-span-2">
+                                <div class="mb-3">
+                                    <a href={`/projects/${project.slug}`} aria-label="Article" class="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-700">
+                                        <p class="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
+                                            {project.data.title}
+                                        </p>
+                                    </a>
+                                </div>
+                                <p class="text-gray-700">
+                                    {project.data.description}
+                                </p>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+            <div class="text-center">
+                <Pagination />
+            </div>
+        </div>
+    </div>
 </Layout>
